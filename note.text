@@ -1,4 +1,3 @@
-Day1~ jun-09
 .......................
 nodejs install (nodejs, npm).... to check version (node -v, npm -v)
 text editor install
@@ -6,8 +5,103 @@ react dev tools (it is a google chrome extension for all react component to show
 vscode extension for react...(thunder client, ES7 React/Redux/GraphQL/React Native snippets, bracket pair colorizer, auto rename tag, live server, prettier - code formatter)
 Online Playgrounds(CodePen, CodeSandbox, Stackblitz)
 
-Day2
 ..............................
 create react app (npx create-react-app react-tutorial)
 run react app(cd react-tutorial && npm start)
+
+.............................................
+(let, var and const) are three variable for defining js variables.
+example:
+let a = 34;
+let a = 'this is variable example';
+
+            or
+
+let a = 34;
+a = 4545 + 4;
+console.log(a);
+
+
+var a = 34;
+var a = 'this is variable example';
+
+#recommendation let variables
+
+const a = 45;
+a = 4554;
+
+console.log(a);
+
+....................................
+Datatypes in js
+
+> Numbers
+> Objects
+> Booleans - true or false
+> Undefined
+> null
+
+.................................
+Functions
+
+<script>
+
+Function.hello(){
+    console.log("Hey Brother!!!!");
+}
+</script>
+
+...................
+Objects
+
+let obj1 = {
+    r: 34,
+    m:64,
+}
+
+(console.....>>obj1
+>>obj1.r
+>>obj1.m
+)
+
+............
+objects inside Function
+
+<script>
+let obj1 = {
+    r:34,
+    m:64,
+    func: Function myfunc(number){
+        console.log("The number is " + number);
+    }
+}
+</script>
+
+.............................
+events in js
+
+<script>
+
+document.addEventListener("click", Function click(){
+    console.log("clicked");
+    // alert("hello")
+    let conf = confirm("Are you sure?");
+    console.log(conf);
+})
+</script>
+
+
+..........................
+JavaScript String Methods
+
+#JS String Length >> length
+
+There are 3 methods for extracting a part of a string:
+#slice(start, end)
+#substring(start, end)
+#substr(start, length)
+
+#Replacing String Content >> replace("...", "...");
+
+etc...
 
