@@ -105,3 +105,15 @@ There are 3 methods for extracting a part of a string:
 
 etc...
 
+# Array...
+let arr = [34, 21, 54];
+
+# loop
+(for, foreach,....)
+
+..................
+JS strict mode...>>> 
+<script>
+"use strict";
+
+</script>
