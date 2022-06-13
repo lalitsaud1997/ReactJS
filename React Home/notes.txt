@@ -1,0 +1,27 @@
+#React is a JavaScript library for building user interfaces.
+#React is used to build single-page applications.
+#React allows us to create reusable UI components.
+
+# Create React App
+React Environment set up
+>to create React applications: create-react-app
+Node.js is required to use create-react-app
+Run this command to create a React application named my-react-app:
+eg: npx create-react-app my-react-app
+
+create-react-app will set up everything you need to run a React application.
+
+Note: If you've previously installed create-react-app globally,
+it is recommended that you uninstall the package to ensure npx always uses the latest version of create-react-app. 
+To uninstall, run this command: npm uninstall -g create-react-app.
+
+#Run the React Application
+Run this command to execute the React application my-react-app: npm start
+>>>>> open your browser and type localhost:3000  <<<<
+
+What You Should Already Know
+Before starting with React.JS, you should have intermediate experience in:
+>HTML
+>CSS
+>JavaScript
+You should also have some experience with the new JavaScript features introduced in ECMAScript 6 (ES6).
