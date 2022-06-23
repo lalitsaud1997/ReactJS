@@ -19,7 +19,7 @@ To uninstall, run this command: npm uninstall -g create-react-app.
 Run this command to execute the React application my-react-app: npm start
 >>>>> open your browser and type localhost:3000  <<<<
 
-What You Should Already Know
+#What You Should Already Know
 Before starting with React.JS, you should have intermediate experience in:
 >HTML
 >CSS
